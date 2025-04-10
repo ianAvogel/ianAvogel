@@ -1,0 +1,138 @@
+# ⚡ ArcFlashPro™ – Powered by FlashPoint Safety
+
+**The all-in-one open-source Arc Flash risk assessment toolkit** for power system engineers, safety consultants, and maintenance professionals. Built by engineers, for engineers. Whether you’re calculating PPE boundaries, documenting mitigation strategies, or running compliance audits—ArcFlashPro™ gives you the tools to do it right.
+
+---
+
+## 🧩 Key Features
+
+### ✅ Incident Energy & Arc Flash Boundary Calculator
+- Based on IEEE 1584-2018 formulas
+- Supports both low and medium voltage systems
+- Distance-to-worker customization for accurate boundary setting
+- Real-time warning label preview
+- **Built-in Incident Energy Calculator:**
+  ```python
+  def calculate_incident_energy(Ibf, t, D, Cf=1.0):
+      """
+      Estimate incident energy in cal/cm^2
+
+      Parameters:
+      Ibf (float): Bolted fault current (kA)
+      t (float): Arcing time (seconds)
+      D (float): Working distance (mm)
+      Cf (float): Configuration factor (defaults to 1.0 for box-type equipment)
+
+      Returns:
+      float: Incident energy in cal/cm^2
+      """
+      return Cf * 0.0051 * Ibf**2 * t / (D / 10)**2
+  ```
+
+### 📊 Risk Analysis Dashboard
+- Shock and arc flash hazard classification by task
+- Dynamic risk scoring matrix (based on NFPA 70E Annex F)
+- Mitigation tracking and control recommendations
+
+### 🔧 Equipment Database
+- Upload or import gear specs from Excel or CSV
+- Supports panels, MCCs, disconnects, transformers, and more
+- Assign maintenance statuses and PPE categories
+
+### 🖨️ Label Generator
+- Prints ANSI Z535-compliant arc flash warning labels
+- QR-code ready for field verification
+- Customizable company logos and hazard language
+
+### 📋 Compliance Toolkit
+- NFPA 70E job briefing and energized work permit forms
+- Lockout/Tagout (LOTO) integration
+- Auto-generated maintenance inspection sheets (NFPA 70B-compliant)
+
+---
+
+## 🏢 Built By: FlashPoint Safety
+
+We’re a North Carolina-based electrical safety firm specializing in:
+- Arc flash studies
+- On-site compliance audits
+- Electrical safety training
+- NFPA 70E & 70B implementation
+- Turnkey documentation and field support
+
+Visit: [FlashPoint Safety](https://ncelectric.co) *(Site coming soon!)*
+
+---
+
+## 📦 Tech Stack
+- Python (backend calculations)
+- Pandas + NumPy for data crunching
+- Tkinter (GUI prototype) – transitioning to PyQT
+- ReportLab for PDF report and label generation
+- SQLite database for offline storage
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+https://github.com/ianAvogel/ArcFlashPro.git
+
+# Run the prototype
+cd ArcFlashPro
+python app.py
+```
+
+> Requires Python 3.9+. Dependencies listed in `requirements.txt`
+
+---
+
+## 🛠 Use Case Examples
+
+#### 1. **New Facility Study**
+Perform a full arc flash risk analysis across a new manufacturing site, complete with hazard classification and PPE labeling.
+
+#### 2. **Annual Compliance Audit**
+Recalculate incident energy values for previously documented equipment and compare to updated working distances.
+
+#### 3. **Contractor Training Tool**
+Use the dashboard and label previews to walk contractors through real-world hazard awareness scenarios.
+
+---
+
+## 🧠 Roadmap
+- [x] Arc flash boundary calculator (IEEE 1584)
+- [x] PPE classification and risk matrix
+- [x] Label generator (PDF + QR)
+- [x] Equipment import/export tools
+- [x] Built-in incident energy calculator
+- [ ] OSHA 1910.269 compliance checklist
+- [ ] Cloud-based database & sync option
+- [ ] Web dashboard with report history
+- [ ] Mobile app field mode
+
+---
+
+## 📣 Want to Collaborate?
+We’re building this for the people in the field: engineers, inspectors, and safety leads. Want to contribute code, test features, or suggest improvements?
+
+**Let’s talk:** ian-vogel@outlook.com
+
+---
+
+## 🛡️ License
+MIT – Because safety should be open.
+
+---
+
+## 🔥 Bonus: Real Talk from the Field
+> "This tool saved me hours in reporting and label printing alone. It’s like SKM... if SKM weren’t allergic to UX."
+
+> “Love that I can actually explain the numbers to a client and not sound like a robot.”
+
+> “Finally, a tool that doesn’t make me hate my job. You’re a legend, Ian.”
+
+---
+
+**ArcFlashPro™** – Know the arc. Own the risk. Stay alive.
