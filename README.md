@@ -26,6 +26,19 @@ _Electrical Safety Specialist | Power Systems Nerd | Builder of Cool, Useful Stu
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
+
+---
+
+## 🧪 Demo Tools
+
+### 🧮 Incident Energy CLI Calculator
+
+Run a quick command-line tool to calculate incident energy and get a recommended PPE category.
+
+#### 🔧 Run It:
+```bash
+python incident_energy_demo.py
+
 ---
 
 ### 📈 GitHub Stats
