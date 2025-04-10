@@ -1,0 +1,78 @@
+# 🦷 Tooth Fortress: Life Skills Adventure
+
+**A Unity-powered educational game for kids (ages 3–8)** that blends fantasy gameplay with real-world skill-building. Help young adventurers learn responsibility, self-care, and emotional awareness while saving the kingdom—one puzzle at a time!
+
+---
+
+## 🎮 Gameplay Overview
+
+In **Tooth Fortress**, players explore colorful, cartoonish 3D worlds while:
+- **Brushing dragon teeth** to learn about hygiene
+- **Solving bedtime puzzles** to master routines
+- **Making snack choices** that build nutrition skills
+- **Managing feelings** during in-game challenges
+- **Helping friends** solve problems with empathy
+
+Each "Life Skill Castle" has 3 levels focused on a real-world skill, wrapped in a magical quest.
+
+---
+
+## 🧠 Skills Developed
+- Hygiene and personal care (like brushing teeth and bedtime)
+- Emotional recognition and self-regulation
+- Responsibility through daily task mastery
+- Problem-solving and teamwork
+
+---
+
+## 🛠️ Built With
+- **Unity 2022 LTS**
+- **C#** for scripts and mechanics
+- **Blender** for simple 3D models
+- **Adobe Audition** for sound design
+- Custom **modular game manager** framework for future expansions
+
+---
+
+## 📸 Demo
+
+![Tooth Fortress Gameplay](https://github.com/ianAvogel/ToothFortress/blob/main/demo.gif)
+
+> More demo clips coming soon! Voice narration will be added to support early readers.
+
+---
+
+## 🚧 Roadmap
+- [x] Tooth Brushing Level Prototype
+- [x] Life Skills Castle world design
+- [ ] Add bedtime routine level
+- [ ] Add emotion identification mini-game
+- [ ] Implement save/load feature
+- [ ] Launch WebGL preview
+
+---
+
+## 📦 How to Play (Coming Soon)
+Clone or download the repo, and launch the Unity project using Unity Hub. A playable WebGL build is planned!
+
+---
+
+## 🤝 Collaboration
+We’re looking for:
+- **3D artists** (stylized/cartoonish)
+- **Voice actors** (friendly, expressive narration)
+- **Child education advisors**
+- **Testers with kids** (ages 3–8)
+
+DM or email me if you want to contribute!
+
+📫 ian-vogel@outlook.com
+
+---
+
+## ⚡ Fun Fact
+This game was inspired by my own kids and their bedtime chaos. Turning life lessons into boss battles seemed like a win-win.
+
+---
+
+**License**: MIT
