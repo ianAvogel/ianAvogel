@@ -32,7 +32,6 @@ _Electrical Safety Specialist | Power Systems Nerd | Builder of Cool, Useful Stu
 ## 🧪 Demo Tools
 
 ### 🧮 Incident Energy CLI Calculator
-
 Run a quick command-line tool to calculate incident energy and get a recommended PPE category.
 
 #### 🔧 Run It:
