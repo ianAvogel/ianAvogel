@@ -29,17 +29,6 @@ _Electrical Safety Specialist | Power Systems Nerd | Builder of Cool, Useful Stu
 
 ---
 
-## 🧪 Demo Tools
-
-### 🧮 Incident Energy CLI Calculator
-Run a quick command-line tool to calculate incident energy and get a recommended PPE category.
-
-#### 🔧 Run It:
-```bash
-python incident_energy_demo.py
-
----
-
 ### 📈 GitHub Stats
 
 ![Ian’s GitHub Stats](https://github-readme-stats.vercel.app/api?username=ianAvogel&show_icons=true&theme=tokyonight)
@@ -49,7 +38,15 @@ python incident_energy_demo.py
 
 > “Engineering is just wizardry with math.” – Me, probably
 
-<!---
-ianAvogel/ianAvogel is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
 --->
+
+### 🧪 Demo Tools
+
+### 🧮 Incident Energy CLI Calculator
+Run a quick command-line tool to calculate incident energy and get a recommended PPE category.
+
+### 🔧 Run It:
+
+```bash
+python incident_energy_demo.py
+
